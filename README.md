@@ -1,9 +1,9 @@
 Assignment 3 - Persistence: Two-tier Web Application with Flat File Database, Express server, and CSS template
 ===
 
-Due: September 16th, by 11:59 AM.
+Due: September 19th, by 11:59 AM.
 
-This assignnment continues where we left off, extending it to use the most popular Node.js server framework (express), a flat file database suitable for small applications (lowdb), and a CSS application framework / template of your choice (Boostrap, Material Design, Semantic UI, Pure etc.)
+This assignment continues where we left off, extending it to use the most popular Node.js server framework (express), a flat file database suitable for small applications (lowdb), and a CSS application framework / template of your choice (Boostrap, Material Design, Semantic UI, Pure etc.)
 
 
 Baseline Requirements
@@ -51,24 +51,19 @@ Do the following to complete this assignment:
 Sample Readme (delete the above when you're ready to submit, and modify the below so with your links and descriptions)
 ---
 
-## Your Web Application Title
+## Fey Foundry Website
 
-your glitch link e.g. http://a3-charlieroberts.glitch.me
+http://a3-jeffreyxiao.glitch.me
 
-Include a very brief summary of your project here. Images are encouraged, along with concise, high-level text. Be sure to include:
-
-- the goal of the application
-- challenges you faced in realizing the application
-- what authentication strategy / database you chose to use and why (choosing one because it seemed the easiest to implement is perfectly acceptable)
-- what CSS framework you used and why.
-  - include any modifications to the CSS framework you made via custom CSS you authored.
-- the five Express middleware packages you used and a short (one sentence) summary of what each one does.
+I continued to update my website, this time adding cart functionality and persistent user storage.
 
 ## Technical Achievements
-- **Tech Achievement 1**: I used OAuth authentication via the GitHub strategy
-- **Tech Achievement 2**: I used over ten Express middleware packages, enabling me to create a server that...
+- **Tech Achievement 1**: Multiple webpages: cart, homepage, login, registration, and storefront
+- **Tech Achievement 2**: User registration and cart modification
 
 ### Design/Evaluation Achievements
-- **Design Achievement 1**: I tested my application using screen reading software, and found that...
-- **Design Achievement 2**: I followed best practices for accessibility, including providing alt attributes for images and using semantic HTML. There are no `<div>` or `<span>` elements in my document.
-- **Design Achievement 3**: We tested the application with n=X users, finding that...
+- **Design Achievement 1**: Applied Bootstrap css as well as custom css
+- **Design Achievement 2**: Products are displayed from a JSON file
+- **Design Achievement 3**: A notification is used to give user feedback on the status of logins and registrations
+- **Design Achievement 4**: Cart with all of the products
+
